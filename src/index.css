@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 220 40% 96%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,30 +17,43 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 217 91% 60%;
+    --primary: 210 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 34 100% 65%;
+    --secondary: 142 65% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 220 30% 94%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 142 76% 45%;
+    --accent: 260 60% 75%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 60%;
+    --border: 220 25% 88%;
+    --input: 220 25% 88%;
+    --ring: 210 100% 50%;
 
-    --radius: 0.75rem;
+    --radius: 1.5rem;
     
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 70%));
-    --gradient-warm: linear-gradient(135deg, hsl(34 100% 65%), hsl(34 100% 75%));
-    --shadow-soft: 0 4px 20px -4px hsl(217 91% 60% / 0.15);
+    /* PISA-style cloud bubbles */
+    --bubble-glass: linear-gradient(135deg, hsl(210 60% 98% / 0.8), hsl(220 60% 97% / 0.8));
+    --bubble-shadow: 0 8px 32px -8px hsl(210 50% 50% / 0.12);
+    --bubble-border: hsl(220 40% 92% / 0.5);
+    
+    /* Classroom background */
+    --classroom-bg: linear-gradient(to bottom, hsl(220 40% 96%), hsl(210 30% 94%));
+    
+    /* Reading passage paper */
+    --paper-bg: hsl(45 60% 98%);
+    --paper-shadow: 0 2px 8px hsl(0 0% 0% / 0.06);
+    
+    /* Answer options */
+    --option-hover: hsl(210 100% 96%);
+    --option-selected: hsl(210 100% 90%);
+    
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
